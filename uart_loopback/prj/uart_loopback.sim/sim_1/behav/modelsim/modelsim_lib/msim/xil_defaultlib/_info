@@ -1,0 +1,151 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA/uart_loopback/prj/uart_loopback.sim/sim_1/behav/modelsim
+T_opt
+!s110 1685520008
+VU2SoQ]>zfUaAfO9kmPZA_1
+Z1 04 16 4 work tb_uart_loopback fast 0
+Z2 04 4 4 work glbl fast 0
+=1-d8bbc14fe46f-6476fe84-35a-1ef8
+Z3 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1685583573
+VSIWI:AWLJ@U>H1o7dK8_K3
+R1
+R2
+=1-d8bbc14fe46f-6477f6d1-291-48d0
+R3
+R4
+n@_opt1
+R5
+vglbl
+!s110 1685583548
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+!i122 2
+L0 6 78
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1685583548.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtb_uart_loopback
+!s10a 1685497249
+Z10 !s110 1685519984
+!i10b 1
+!s100 U0S`e_S?M[lZGOZ5ca?nh2
+R6
+IY`m7`7^VeH>dMJ6Oke?9`2
+R0
+w1685497249
+8../../../../../sim/tb/tb_uart_loopback.v
+F../../../../../sim/tb/tb_uart_loopback.v
+!i122 0
+L0 3 60
+R7
+R8
+r1
+!s85 0
+31
+Z11 !s108 1685519983.000000
+Z12 !s107 ../../../../../sim/tb/tb_uart_loopback.v|../../../../../rtl/uart_tx.v|../../../../../rtl/uart_rx.v|../../../../../rtl/uart_loopback.v|
+Z13 !s90 -incr|-work|xil_defaultlib|../../../../../rtl/uart_loopback.v|../../../../../rtl/uart_rx.v|../../../../../rtl/uart_tx.v|../../../../../sim/tb/tb_uart_loopback.v|
+!i113 0
+R9
+R4
+vuart_loopback
+!s10a 1685438459
+R10
+!i10b 1
+!s100 [CDiaF=G>>ZX3P7?T04@d1
+R6
+ILGnGVj[oKD<m98RCMPfj]2
+R0
+w1685438459
+8../../../../../rtl/uart_loopback.v
+F../../../../../rtl/uart_loopback.v
+!i122 0
+L0 23 49
+R7
+R8
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R9
+R4
+vuart_rx
+!s10a 1685581566
+R10
+!i10b 1
+!s100 nJgzCkUke=FbJ4Ch0I83R3
+R6
+Ig7iPUk4XYQ_CF9fgghg^@0
+R0
+w1685496773
+8../../../../../rtl/uart_rx.v
+F../../../../../rtl/uart_rx.v
+!i122 0
+L0 23 130
+R7
+R8
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R9
+R4
+vuart_tx
+!s10a 1685496810
+R10
+!i10b 1
+!s100 Oj^Bm5b;><S>Y4j[<Zg<o1
+R6
+I8c71iZEc<S?c=c5<iZKcU1
+R0
+w1685496810
+8../../../../../rtl/uart_tx.v
+F../../../../../rtl/uart_tx.v
+!i122 0
+L0 23 98
+R7
+R8
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R9
+R4

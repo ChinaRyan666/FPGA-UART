@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Sep 21 20:11:55 2023
+# Process ID: 2060
+# Current directory: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/19_uart_loopback/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4272 D:\Develop\ZYNQ_A_New\4_Source_Code\1_FPGA_Design\ZYNQ_7020_FPGA\19_uart_loopback\prj\uart_loopback.xpr
+# Log file: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/19_uart_loopback/prj/vivado.log
+# Journal file: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/19_uart_loopback/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/19_uart_loopback/prj/uart_loopback.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/19_uart_loopback/prj'
+INFO: [Project 1-313] Project file moved from 'E:/FPGA/z2/uart_loopback/prj' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/19_uart_loopback/prj/uart_loopback.gen/sources_1', nor could it be found using path 'E:/FPGA/z2/uart_loopback/prj/uart_loopback.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 21 22:52:47 2023...

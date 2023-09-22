@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jun  1 15:41:16 2023
+| Host         : DESKTOP-HL6DT46 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file uart_loopback_bus_skew_routed.rpt -pb uart_loopback_bus_skew_routed.pb -rpx uart_loopback_bus_skew_routed.rpx
+| Design       : uart_loopback
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

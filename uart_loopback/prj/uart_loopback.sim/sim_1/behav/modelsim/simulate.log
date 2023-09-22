@@ -1,0 +1,77 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb_uart_loopback_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.tb_uart_loopback xil_defaultlib.glbl 
+# Start time: 09:39:29 on Jun 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_uart_loopback(fast)
+# Loading work.uart_loopback(fast)
+# Loading work.uart_rx(fast)
+# Loading work.uart_tx(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: huang  Hostname: DESKTOP-HL6DT46  ProcessID: 7928
+#           Attempting to use alternate WLF file "./wlftkxj6ci".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkxj6ci
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint  \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/CLK_FREQ \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/UART_BPS \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/BAUD_CNT_MAX \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/clk \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/rst_n \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/uart_tx_en \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/uart_tx_data \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/uart_txd \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/uart_tx_busy \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/tx_data_t \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/tx_cnt \
+sim:/tb_uart_loopback/u_uart_loopback/u_uart_tx/baud_cnt
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_uart_loopback(fast)
+# Loading work.uart_loopback(fast)
+# Loading work.uart_rx(fast)
+# Loading work.uart_tx(fast)
+# Loading work.glbl(fast)
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/tb_uart_loopback/u_uart_loopback/CLK_FREQ \
+sim:/tb_uart_loopback/u_uart_loopback/UART_BPS \
+sim:/tb_uart_loopback/u_uart_loopback/sys_clk \
+sim:/tb_uart_loopback/u_uart_loopback/sys_rst_n \
+sim:/tb_uart_loopback/u_uart_loopback/uart_rxd \
+sim:/tb_uart_loopback/u_uart_loopback/uart_txd \
+sim:/tb_uart_loopback/u_uart_loopback/uart_rx_done \
+sim:/tb_uart_loopback/u_uart_loopback/uart_rx_data
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_uart_loopback(fast)
+# Loading work.uart_loopback(fast)
+# Loading work.uart_rx(fast)
+# Loading work.uart_tx(fast)
+# Loading work.glbl(fast)
+run
+run
+# End time: 10:17:42 on Jun 01,2023, Elapsed time: 0:38:13
+# Errors: 0, Warnings: 0
